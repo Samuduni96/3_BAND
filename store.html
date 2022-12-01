@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<http>
+<head>
+    <title>ONE OK ROCK | STORE</title>
+    <meta name="description" content="This is a web page about the Japanese Rock Band One Ok Rock">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+        <h1 class="band-name band-name-large">ONE OK ROCK</h1>
+    </header>
+
+    <section class="container content-section">
+        <h2 class="section-header">MUSIC</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Ambitions</span>
+                <img class="shop-item-image" src = "images/ambition.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$10.00</span>
+                    <button class="btn btn-primary shop-item-btn" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Clock Strike</span>
+                <img class="shop-item-image" src = "images/clock strike album.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$11.30</span>
+                    <button class="btn btn-primary shop-item-btn" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Cry Out</span>
+                <img class="shop-item-image" src = "images/cry out single.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.89</span>
+                    <button class="btn btn-primary shop-item-btn" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Luxury Disease</span>
+                <img class="shop-item-image" src = "images/aa.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$10.50</span>
+                    <button class="btn btn-primary shop-item-btn" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header">MERCH</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Star Long Sleeve</span>
+                <img class="shop-item-image" src = "images/merch1.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$45.00</span>
+                    <button class="btn btn-primary shop-item-btn" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Sun Logo Hoodie</span>
+                <img class="shop-item-image" src = "images/merch2.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$50.00</span>
+                    <button class="btn btn-primary shop-item-btn" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Logo Collage Tee</span>
+                <img class="shop-item-image" src = "images/merch3.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$20.00</span>
+                    <button class="btn btn-primary shop-item-btn" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Skatedeck</span>
+                <img class="shop-item-image" src = "images/merch4.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$55.00</span>
+                    <button class="btn btn-primary shop-item-btn" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src = "images/cry out single.jpg" width="100">
+                    <span class="cart-item-title">Cry Out</span>
+                </div>
+                <span class="cart-price cart-column">$12.89</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type = "number" value="1">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src = "images/merch1.png" width="100">
+                    <span class="cart-item-title">Star Long Sleeve</span>
+                </div>
+                <span class="cart-price cart-column">$45.00</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="2">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$57.89</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">ONE OK ROCK</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="http://facebook.com" target="_blank">
+                        <img src = "images/Facebook Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://spotify.com" target="_blank">
+                        <img src = "images/Spotify Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://youtube.com" target="_blank">
+                        <img src = "images/YouTube Logo.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</http>
